@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--la siguiente linea es para dirigir al archivo de estilos .CSS-->
+    <link rel="stylesheet" href="estilo.css"/>
+</head>
+
+
+
+<body>
+    <nav>
+        <ul class="main-nav">
+            <li class="main-nav__item"><a href="">Inicio</a></li>
+            <li class="main-nav__item"><a href="">Estudiantes</a></li>
+            <li class="main-nav__item"><a href="">Docentes</a></li>
+            <li class="main-nav__item"><a href="">Administrativos</a></li>
+        </ul>
+
+    </nav>
+    <h1>este es mi formulario</h1>
+    <p class="parrafo">para que todos ingresen sus datos personales sobre su nacimiento</p>
+    <p id="texto" class="parrafo">este elemento lo quiero mantener con diferente estilo CSS3 , es una prueba mediante las clases </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio natus, ipsum officiis iure sint nesciunt in. Temporibus deleniti fuga, maiores error aut, laudantium illum optio odit ipsum odio nam corporis.</p>
+    <form action="" class="fmr">
+        <!--name es el nombre de la variable donde almacenare lo que llega en el input-->
+        <!--el for es para al hacer click en el label, va a ir al input llamado por el for-->
+        <!--placeholder es cuadro dentro del input-->
+        <br>
+        <label for="nombre">
+            <br>
+            <span>¿Cuál es tu nombre?</span>
+            <br>
+            <input type="text" name="nombre" id="nombre" placeholder="su nombre">
+            <br>
+        </label>
+        <br>
+        <label for="fecha-nacimiento">
+            <br>
+            <span>¿Cuál es tu fecha de nacimiento?</span>
+            <br>
+            <input type="date" name="fechita" id="fecha-nacimiento" placeholder="fecha de nacimiento">
+            <br>
+        </label>
+        <br>
+        <label for="hora-nacimiento">
+            <br>
+            <span>¿Cuál es hora de nacimiento?</span>
+            <br>
+            <input type="time" name="hora-nace" id="hora-nacimiento">
+            <br>
+        </label>
+        <br>
+        <!--lo que sigue es un boton-->
+        <input type="submit" id="btnSend">
+        <br>
+    </form>
+</body>
+<fother>
+    <div>
+        <br>
+        <br>
+        <div class="wrapper">
+            <div class="slider" id="slider">
+                <ul class="slides">
+                    <li class="slide" id="slide1">
+                        <a href="#">
+                            <img src="photo1.jpg" alt="photo 1">
+                        </a>
+                    </li>
+                    <li class="slide" id="slide2">
+                        <a href="#">
+                            <img src="photo2.jpg" alt="photo 2">
+                        </a>
+                    </li>
+                    <li class="slide" id="slide3">
+                        <a href="#">
+                            <img src="photo3.jpg" alt="photo 3">
+                        </a>
+                    </li>
+                    <li class="slide" id="slide4">
+                        <a href="#">
+                            <img src="photo4.jpg" alt="photo 4">
+                        </a>
+                    </li>
+                    <li class="slide" id="slide5">
+                        <a href="#">
+                            <img src="photo5.jpg" alt="photo 5">
+                        </a>
+                    </li>
+                    <li class="slide">
+                        <a href="#">
+                            <img src="photo1.jpg" alt="photo 1">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="slider-controler">
+                    <li><a href="#slide1">&bullet;</a></li>
+                    <li><a href="#slide2">&bullet;</a></li>
+                    <li><a href="#slide3">&bullet;</a></li>
+                    <li><a href="#slide4">&bullet;</a></li>
+                    <li><a href="#slide5">&bullet;</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+
+    </div>
+
+</fother>
+</html>
